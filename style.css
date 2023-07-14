@@ -1,0 +1,68 @@
+*{
+    font-family: 'Space Mono'; 
+}
+
+nav{
+    font-family: 'Inconsolata';
+    margin: 30px 0 20px 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.image-container{
+    margin: 0 20px 0 180px;
+}
+
+.image-container img{
+    width: 500px;
+    height: auto;
+}
+
+.text-container{
+    width: 500px;
+    height: auto;
+    margin-right: 240px;
+}
+
+.text-container h1{
+    font-size: 50px;
+}
+
+.text-container p{
+    font-size: 18px;
+}
+
+.text-container button{
+    color: azure;
+    background-color: black;
+    padding: 20px;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:600px){
+   .contents{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+   } 
+
+   .image-container{
+    width: 100vw;
+    margin: 0 10px 0 10px;
+   }
+
+   .text-container{
+    width: 100vw;
+    margin: 0 10px 0 10px;
+   }
+
+}
